@@ -36,3 +36,82 @@
     transform: rotate(360deg);
   }
 }
+
+.myBG{
+  height: 100vh;
+  background: url("../src/assets/header2.jpg");
+  background-size: cover;
+}
+
+.text_header{
+  height: 50%;
+   display: flex;
+   justify-content: end;
+   align-items: end;
+}
+
+.title{
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1;
+  text-shadow: 2px 2px black;
+  letter-spacing: 4px;
+
+}
+
+.AboutUs{
+    height: 80vh;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+}
+
+.About{
+  padding-top: 8rem;
+  padding-left:8rem;
+}
+
+#col1{
+  padding-left: 6rem;
+}
+
+
+#col2{
+ 
+  padding-left: 5rem;
+}
+
+.foto_about{
+  border-radius: 20px;
+}
+
+#txt_about{
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1;
+  text-shadow: 2px 2px grey;
+  letter-spacing: 4px;
+}
+
+.Menu{
+  height: 80vh;
+  background-color: white;
+  background-size: cover;
+}
+
+.Cmenu{
+  margin-top: 8rem;
+}
+
+.col_menu{
+  padding-left: 2rem;
+}
+
+#header_menu{
+  text-align: center;
+  padding-bottom: 5rem;
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1;
+  text-shadow: 2px 2px grey;
+  letter-spacing: 4px;
+}
