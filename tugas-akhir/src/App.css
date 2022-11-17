@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: center
 }
 
 .App-logo {
@@ -51,33 +51,37 @@
 }
 
 .title{
+  color: white;
   font-size: 3rem;
   font-weight: 800;
   line-height: 1;
   text-shadow: 2px 2px black;
   letter-spacing: 4px;
-
 }
 
 .AboutUs{
     height: 80vh;
-    background-color: rgb(255, 255, 255);
-    background-size: cover;
+    background-color: #594545;
 }
 
 .About{
   padding-top: 8rem;
   padding-left:8rem;
 }
+.Gallery{
+  padding-top: 8rem;
+  padding-left:8rem;
+}
 
 #col1{
-  padding-left: 6rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 
 #col2{
- 
-  padding-left: 5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .foto_about{
@@ -85,17 +89,18 @@
 }
 
 #txt_about{
+  color: white;
   font-size: 3rem;
   font-weight: 800;
   line-height: 1;
-  text-shadow: 2px 2px grey;
+  text-shadow: 2px 2px black;
   letter-spacing: 4px;
 }
 
 .Menu{
-  height: 80vh;
-  background-color: white;
-  background-size: cover;
+
+  background-color: #594545;
+
 }
 
 .Cmenu{
@@ -104,9 +109,20 @@
 
 .col_menu{
   padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 #header_menu{
+  color: white;
+  text-align: center;
+  padding-bottom: 5rem;
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1;
+  text-shadow: 2px 2px black;
+  letter-spacing: 4px;
+}
+.txt-Gallery{
   text-align: center;
   padding-bottom: 5rem;
   font-size: 3rem;
@@ -114,4 +130,42 @@
   line-height: 1;
   text-shadow: 2px 2px grey;
   letter-spacing: 4px;
+}
+
+.Gall{
+  background-color: #594545;
+  padding-top: 10rem;
+  padding-left: 8rem;
+}
+
+#row_gallery{
+  padding-right: 1rem;
+}
+
+.foto_gall{
+  height: 250px
+}
+.col_gall{
+  padding-right: 0px;
+}
+
+.Menu1{
+  padding-bottom: 6rem;
+  padding-left: 4rem;
+}
+
+.Card{
+  box-shadow: 8px 8px 8px black;
+}
+.CardBody{
+  background-color: #9F8772;
+}
+
+#tombol_menu{
+  background-color: #665A48;
+  border: none;
+}
+
+.txt_about2{
+  color:white;
 }
