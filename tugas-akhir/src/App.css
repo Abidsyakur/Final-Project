@@ -122,6 +122,16 @@
   text-shadow: 2px 2px black;
   letter-spacing: 4px;
 }
+#header_menu2{
+  color: white;
+  text-align: center;
+  padding-bottom: 5rem;
+  font-size: 2.3rem;
+  font-weight: 800;
+  line-height: 1;
+  text-shadow: 2px 2px black;
+  letter-spacing: 4px;
+}
 .txt-Gallery{
   text-align: center;
   padding-bottom: 5rem;
@@ -134,11 +144,22 @@
 
 .Gall{
   background-color: #594545;
+  height: 100vh;
+  padding-top: 10rem;
+  padding-left: 8rem;
+}
+
+.Ourteam{
+  background-color: #594545;
+  background-size: cover;
   padding-top: 10rem;
   padding-left: 8rem;
 }
 
 #row_gallery{
+  padding-right: 1rem;
+}
+#row_ourteam{
   padding-right: 1rem;
 }
 
@@ -168,4 +189,23 @@
 
 .txt_about2{
   color:white;
+}
+
+.ourteam{
+  padding-top: 25rem;
+  background-color: #594545;
+  height:200vh;
+}
+
+.fototim{
+  padding-left: 1rem;
+  margin-left: 2rem;
+  padding-bottom: 2rem;
+}
+
+#FotoTim{
+   
+      
+      text-shadow: #282c34;
+  
 }

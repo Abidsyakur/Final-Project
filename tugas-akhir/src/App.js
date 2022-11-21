@@ -1,12 +1,12 @@
-import logo from './logo.svg';
+
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavigationBar from './components/NavigationBar';
 import Header1 from './components/Header1';
 import About from './components/About';
 import Menu from './components/Menu';
-import OurTeam from './components/OurTeam'
 import Gallery from './components/Gallery';
+import OurTeam from './components/OurTeam';
 
 function App() {
   return (
@@ -30,6 +30,9 @@ function App() {
 
       {/* Gallery Section */}
       <Gallery />
+
+      {/* OurTeam Section */}
+      <OurTeam />
 
     </div>
 
