@@ -7,7 +7,7 @@ const OurTeam = () => {
 
         <div className="ourteam">
               <div class="container" >
-    <h1 id="header_menu">Our TEAM</h1>
+    <h1 id="header_menu_ourteam">Our TEAM</h1>
       <div class="row  mb-4" id='row_ourteam'>
 
         <div class="col">

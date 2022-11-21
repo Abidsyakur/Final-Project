@@ -64,7 +64,7 @@ const Menu = () =>{
                 </Card>
             </div>
         </div>    
-        <div className="row pt-5">
+        <div className="row pt-5" id="menu">
             <div id="col1"className="col">
                 <Card className="Card" style={{ width: '18rem' }}>
                 <Card.Img variant="top"  src={gal4} height="300"  />
@@ -105,7 +105,7 @@ const Menu = () =>{
                 </Card>
             </div>
         </div>    
-        <div className="row pt-5">
+        <div className="row pt-5"id="menu">
             <div id="col1"className="col">
                 <Card className="Card" style={{ width: '18rem' }}>
                 <Card.Img variant="top"  src={min1} height="300"  />
@@ -146,7 +146,7 @@ const Menu = () =>{
                 </Card>
             </div>
         </div>    
-        <div className="row pt-5">
+        <div className="row pt-5" id="menu">
             <div id="col1"className="col">
                 <Card className="Card" style={{ width: '18rem' }}>
                 <Card.Img variant="top"  src={min4} height="300"  />
