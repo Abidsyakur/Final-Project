@@ -85,6 +85,7 @@
 
 .foto_about {
   border-radius: 20px;
+  width: 100%;
 }
 
 #txt_about {
@@ -191,6 +192,8 @@
   
   background-color: #443434;
   background-size: cover;
+  padding-top: 20px;
+  color: white;
 }
 
 #row_gallery{
@@ -252,6 +255,11 @@
 @media only screen and (min-width: 1187px) {
   #col1 {
     padding-right: 1rem;
+  }
+}
+@media only screen and (min-width: 1254px) {
+  .foto_about{
+    width: 500px;
   }
 }
 
@@ -593,7 +601,7 @@
 }
 @media only screen and (min-width: 485px) {
   .foto_about {
-    width: 250px;
+    width: 450px;
   }
 
   #c_menu1 {
