@@ -1,35 +1,38 @@
-import { Container,Col,Row,Image } from "react-bootstrap";
+import { Container, Col, Row, Image } from "react-bootstrap";
 
-import foto from '../assets/about.jpg';
+import foto from "../assets/about.jpg";
 
 const About = () => {
-    return(
+  return (
     <div className="About">
-        <div className="Container">
-           <div className="row">
-                <div id="col1" className="col">
-
-                    <h1 id="txt_about">About Us</h1>
-                <div className="txt_about2">
-                <h4>IT STARTED, QUITE SIMPLY, LIKE THIS...</h4>
-                    <br></br>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm incididunt ut labore et dolore magna aliqua. Ut enim ad minim venia, nostrud exercitation ullamco.
-
-Aenean commodo ligula eget dolor aenean massa. Cum sociis nat penatibu set magnis dis parturient montes, nascetur ridiculus mus. quam felisorat, ultricies nec, Aenean commodo ligula eget dolor penatibu set magnis is parturient montes, nascetur ridiculus mus. quam felisorat, ultricies nec, pellentesque eu, pretium quis, sem. quat massa quis enim. Donec vitae sapien ut libero venenatis fauci Nullam quis ante. Etiam sit amet rci eget eros.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm incididunt ut labore et dolore magna aliqua. Ut enim ad minim venia, nostrud exercitation ullamco.</p>
-                </div>
-                    
-                </div>
-                <div id="col2" className="col">
-                    <img className="foto_about" src={foto} height="350"/>
-                </div>
-           </div>
+      <div className="Container" id="c_about">
+        <div className="row">
+          <div id="col1" className="col">
+            <h1 id="txt_about">About Us</h1>
+            <div className="txt_about2">
+              <h4>IT STARTED, QUITE SIMPLY, LIKE THIS...</h4>
+              <br></br>
+              <p>
+                -SHARFARAZ CAFE was founded in 1974 in Pasuruan, Indonesia. The
+                franchise, operated under Home-Grown Industries of Indonesia,
+                Inc., is headquartered in Pasuruan, Indonesia.
+              </p>
+              <p>
+                For over 40 years, Mellow Mushroom Pizza Bakers has been serving
+                up fresh, stone-baked pizzas to order in an eclectic,
+                art-filled, and family-friendly environment. Each Mellow is
+                locally owned and operated and provides a unique feel focused
+                around great customer service and high-quality food-
+              </p>
+            </div>
+          </div>
+          <div id="col2" className="col">
+            <img className="foto_about" src={foto} height="350" />
+          </div>
         </div>
+      </div>
     </div>
-        
-        
-    );
-}
+  );
+};
 
 export default About;
