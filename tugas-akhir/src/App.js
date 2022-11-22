@@ -7,6 +7,7 @@ import About from './components/About';
 import Menu from './components/Menu';
 import Gallery from './components/Gallery';
 import OurTeam from './components/OurTeam';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -33,6 +34,9 @@ function App() {
 
       {/* OurTeam Section */}
       <OurTeam />
+
+      {/* Contact Section */}
+      <Contact />
 
     </div>
 

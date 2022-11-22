@@ -175,6 +175,13 @@
   padding-top: 10rem;
   padding-left: 8rem;
 }
+.contact{
+  background-color: #594545;
+  background-size: cover;
+  padding-top: 6rem;
+  padding-left: 8rem;
+  height: 130vh;
+}
 
 #row_gallery{
   padding-right: 1rem;
@@ -214,7 +221,7 @@
 .ourteam{
   padding-top: 25rem;
   background-color: #594545;
-  height:800vh;
+  height:200vh;
 }
 
 .fototim{
@@ -492,6 +499,11 @@
     padding-top: 40rem;
   }
 }
+@media only screen and (min-width : 991px){
+  .ourteam{
+    padding-top: 75rem;
+  }
+}
 
 @media only screen and (min-width : 792px) and (max-width:990px){
   #gal3{
@@ -514,3 +526,103 @@
     padding-top: 20px;
   }
 }
+@media only screen and (min-width : 810px) and (max-width:987px){
+  .contact{
+    padding-top: 90rem ;
+    padding-left: 2rem;
+    height:350vh;
+  }
+}
+@media only screen and (min-width : 987px) and (max-width:1114px){
+  .contact{
+    padding-top: 90rem ;
+    padding-left: 2rem;
+    height:350vh;
+  }
+}
+@media only screen and (min-width : 696px) and (max-width:792px){
+  .contact{
+    padding-top: 110rem ;
+    padding-left: 2rem;
+    height:350vh;
+  }
+}
+@media only screen and (min-width : 992px) and (max-width:1112px){
+  .contact{
+    padding-top: 17rem ;
+    padding-left: 2rem;
+    height:350vh;
+  }
+}
+@media only screen and (min-width : 600px) and (max-width:696px){
+  .contact{
+    padding-top: 115rem ;
+    padding-left: 2rem;
+    height:350vh;
+  }
+}
+@media only screen and (min-width : 500px) and (max-width:600px){
+  .ourteam{
+    padding-top: 120rem;
+  }
+  .contact{
+    padding-top: 115rem ;
+    padding-left: 2rem;
+    height:350vh;
+  }
+}
+@media only screen and (min-width : 1113px){
+  .contact{
+    padding-top: 35rem ;
+    padding-left: 2rem;
+    height:350vh;
+  }
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body { background:rgb(30,30,40); }
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:black;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #CC6666;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #CC4949; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#CC6666;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#CC4949; }

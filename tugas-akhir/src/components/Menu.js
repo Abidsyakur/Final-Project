@@ -1,11 +1,10 @@
-import { DEFAULT_MIN_BREAKPOINT } from "react-bootstrap/esm/ThemeProvider";
+
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import gal1 from "../assets/gal1.jpg"
 import gal2 from "../assets/gal2.jpg"
 import gal3 from "../assets/gal3.jpg"
 import gal4 from "../assets/gal4.jpg"
-import gal5 from "../assets/gal5.jpg"
 import gal6 from "../assets/gal6.jpg"
 import gal7 from "../assets/gal7.jpg"
 import min1 from "../assets/min1.jpg"
@@ -15,8 +14,7 @@ import min4 from "../assets/min4.jpg"
 import min5 from "../assets/min5.jpg"
 import min6 from "../assets/min6.jpg"
 
-import menu1 from "../assets/menu1.jpg"
-import { Container,Row,Col, Form } from "react-bootstrap";
+
 
 const Menu = () =>{
     return(
