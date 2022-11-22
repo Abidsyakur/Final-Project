@@ -1,37 +1,41 @@
 
 const Footer = () => {
     return (
-        <div className="main-Footer">
-            <div className="container">
+        <div className="footer">
+            <div className="container" id="footer_c">
                 <div className="row">
                 {/*column1*/}
                 <div className="col">
-                    <h4>text</h4>
+                    <h4>Informasi Kontak</h4>
                     <ul className="list-unstyled">
-                        <li>324-546-0025</li>
-                        <li>Surabaya, Jawa Timur</li>
-                        <li>street</li>
+                        <li>Harap dicatat : Kami akan segera menghubungi anda, biasanya 5-10 menit lamanya.
+                            Perhatikan juga jika memesan pesanan pada hari minggu,
+                            mungkin kami hanya akan membalas pada hari masuk saja. </li>
                     </ul>
                 </div>
                 {/*column2*/}
                 <div className="col">
-                    <h4>text</h4>
+                    <h4>Info Kami</h4>
                     <ul className="list-unstyled">
-                        <li>324-546-0025</li>
+                        <li>Jl. Ahmad Yani Surabaya XII No.5,Surabaya
+                            60112
+                            Indonesia
+                        </li>
                         <li>Surabaya, Jawa Timur</li>
-                        <li>street</li>
+                        <li>+62-852-3466-5782</li>
                     </ul>
-
+                </div>
                     {/*column3*/}
                     <div className="col">
-                        <h4>text</h4>
+                        <h4>Connect With Us</h4>
                         <ul className="list-unstyled">
-                            <li>324-546-0025</li>
-                            <li>Surabaya, Jawa Timur</li>
-                            <li>street</li>
+                            <li>You don't need to outright say, "our mission is ___", but you should convey the mission of your business
+                                in you About Us copy. this is key for attracting talent, as well as leads that have Corporate Social
+                                Responsibility (CSR) goals.
+                            </li>
                         </ul>
                     </div>
-                </div>
+                
                 <hr />
                 <div className="row">
                     <p className="col-sm">

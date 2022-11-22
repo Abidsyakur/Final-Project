@@ -174,7 +174,7 @@
 
 .Gall{
   background-color: #594545;
-  height: 100vh;
+  height: 50vh;
   padding-top: 10rem;
   padding-left: 8rem;
 }
@@ -187,10 +187,19 @@
 }
 .contact{
   background-color: #594545;
-  background-size: cover;
-  padding-top: 6rem;
+  padding-top:10rem;
   padding-left: 8rem;
-  height: 130vh;
+}
+.footer{
+  
+  background-color: #443434;
+  background-size: cover;
+}
+#footer_c{
+  color:white;
+  background-color: #443434;
+  background-size: cover;
+  
 }
 
 #row_gallery{
@@ -585,7 +594,7 @@
   .contact{
     padding-top: 35rem ;
     padding-left: 2rem;
-    height:350vh;
+    height:250vh;
   }
 }
 
@@ -593,7 +602,6 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 body { background:rgb(30,30,40); }
-form { max-width:420px; margin:50px auto; }
 
 .feedback-input {
   color:black;
@@ -636,3 +644,83 @@ textarea {
   font-weight:700;
 }
 [type="submit"]:hover { background:#CC4949; }
+
+footer-clean h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-clean ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-clean ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-clean ul a:hover {
+  opacity:1;
+}
+
+.footer-clean .item.social {
+  text-align:right;
+}
+
+@media (max-width:767px) {
+  .footer-clean .item {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-clean .item.social {
+    text-align:center;
+  }
+}
+
+.footer-clean .item.social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin-left:10px;
+  margin-top:22px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-clean .item.social > a:hover {
+  opacity:0.9;
+}
+
+@media (max-width:991px) {
+  .footer-clean .item.social > a {
+    margin-top:40px;
+  }
+}
+
+@media (max-width:767px) {
+  .footer-clean .item.social > a {
+    margin-top:10px;
+  }
+}
+
+.footer-clean .copyright {
+  margin-top:14px;
+  margin-bottom:0;
+  font-size:13px;
+  opacity:0.6;
+}
