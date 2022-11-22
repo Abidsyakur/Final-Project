@@ -12,7 +12,7 @@ const NavigationBar = () =>{
                     <NavLink className="text-white" href="#header_menu">MENU</NavLink>
                     <NavLink className="text-white"href="#header_menu_gall">GALLERY</NavLink>
                     <NavLink className="text-white" href="#header_menu_ourteam">OUR TEAM</NavLink>
-                    <NavLink className="text-white">CONTACT</NavLink>
+                    <NavLink className="text-white" href="#header_menu_contact">CONTACT</NavLink>
                 </Nav>
             </Container>
         </Navbar>

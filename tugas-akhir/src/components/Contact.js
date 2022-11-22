@@ -2,7 +2,7 @@ const Contact = ()  =>{
     return(
     <div className="contact">
         <div className="container">
-        <h1 id="header_menu_ourteam">Contact</h1>
+        <h1 id="header_menu_contact">Contact</h1>
     <form>      
   <input name="name" type="text" class="feedback-input" placeholder="Name" />   
   <input name="email" type="text" class="feedback-input" placeholder="Email" />
