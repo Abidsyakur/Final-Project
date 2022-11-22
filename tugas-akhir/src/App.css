@@ -1,5 +1,5 @@
 .App {
-  text-align: center
+  text-align: center;
 }
 
 .App-logo {
@@ -37,20 +37,20 @@
   }
 }
 
-.myBG{
+.myBG {
   height: 100vh;
   background: url("../src/assets/header2.jpg");
   background-size: cover;
 }
 
-.text_header{
+.text_header {
   height: 50%;
-   display: flex;
-   justify-content: end;
-   align-items: end;
+  display: flex;
+  justify-content: end;
+  align-items: end;
 }
 
-.title{
+.title {
   color: white;
   font-size: 3rem;
   font-weight: 800;
@@ -59,36 +59,35 @@
   letter-spacing: 4px;
 }
 
-.AboutUs{
-    height: 80vh;
-    background-color: #594545;
+.AboutUs {
+  height: 80vh;
+  background-color: #594545;
 }
 
-.About{
+.About {
   padding-top: 8rem;
-  padding-left:8rem;
+  padding-left: 8rem;
 }
-.Gallery{
+.Gallery {
   padding-top: 8rem;
-  padding-left:8rem;
+  padding-left: 8rem;
 }
 
-#col1{
+#col1 {
   padding-left: 3rem;
   padding-right: 3rem;
 }
 
-
-#col2{
+#col2 {
   padding-left: 3rem;
   padding-right: 3rem;
 }
 
-.foto_about{
+.foto_about {
   border-radius: 20px;
 }
 
-#txt_about{
+#txt_about {
   color: white;
   font-size: 3rem;
   font-weight: 800;
@@ -97,22 +96,20 @@
   letter-spacing: 4px;
 }
 
-.Menu{
-
+.Menu {
   background-color: #594545;
-
 }
 
-.Cmenu{
+.Cmenu {
   margin-top: 8rem;
 }
 
-.col_menu{
+.col_menu {
   padding-left: 2rem;
   padding-right: 2rem;
 }
 
-#header_menu{
+#header_menu {
   color: white;
   text-align: center;
   padding-bottom: 5rem;
@@ -122,7 +119,7 @@
   text-shadow: 2px 2px black;
   letter-spacing: 4px;
 }
-#header_menu_gall{
+#header_menu_gall {
   color: white;
   text-align: center;
   padding-bottom: 5rem;
@@ -132,7 +129,7 @@
   text-shadow: 2px 2px black;
   letter-spacing: 4px;
 }
-#header_menu_ourteam{
+#header_menu_ourteam {
   color: white;
   text-align: center;
   padding-bottom: 5rem;
@@ -142,7 +139,7 @@
   text-shadow: 2px 2px black;
   letter-spacing: 4px;
 }
-#header_menu_contact{
+#header_menu_contact {
   color: white;
   text-align: center;
   padding-bottom: 5rem;
@@ -152,7 +149,7 @@
   text-shadow: 2px 2px black;
   letter-spacing: 4px;
 }
-#header_menu2{
+#header_menu2 {
   color: white;
   text-align: center;
   padding-bottom: 5rem;
@@ -162,7 +159,7 @@
   text-shadow: 2px 2px black;
   letter-spacing: 4px;
 }
-.txt-Gallery{
+.txt-Gallery {
   text-align: center;
   padding-bottom: 5rem;
   font-size: 3rem;
@@ -172,20 +169,20 @@
   letter-spacing: 4px;
 }
 
-.Gall{
+.Gall {
   background-color: #594545;
   height: 50vh;
   padding-top: 10rem;
   padding-left: 8rem;
 }
 
-.Ourteam{
+.Ourteam {
   background-color: #594545;
   background-size: cover;
   padding-top: 10rem;
   padding-left: 8rem;
 }
-.contact{
+.contact {
   background-color: #594545;
   padding-top:10rem;
   padding-left: 8rem;
@@ -195,532 +192,463 @@
   background-color: #443434;
   background-size: cover;
 }
-#footer_c{
-  color:white;
-  background-color: #443434;
-  background-size: cover;
-  
-}
 
 #row_gallery{
   padding-right: 1rem;
 }
-#row_ourteam{
+#row_ourteam {
   padding-right: 1rem;
 }
 
-.foto_gall{
-  height: 250px
+.foto_gall {
+  height: 250px;
 }
-.col_gall{
+.col_gall {
   padding-right: 0px;
 }
 
-.Menu1{
+.Menu1 {
   padding-bottom: 6rem;
   padding-left: 4rem;
 }
 
-.Card{
+.Card {
   box-shadow: 8px 8px 8px black;
 }
-.CardBody{
-  background-color: #9F8772;
+.CardBody {
+  background-color: #9f8772;
 }
 
-#tombol_menu{
-  background-color: #665A48;
+#tombol_menu {
+  background-color: #665a48;
   border: none;
 }
 
-.txt_about2{
-  color:white;
+.txt_about2 {
+  color: white;
 }
 
-.ourteam{
+.ourteam {
   padding-top: 25rem;
   background-color: #594545;
-  height:200vh;
+  height: 200vh;
 }
 
-.fototim{
+.fototim {
   padding-left: 1rem;
   margin-left: 2rem;
   padding-bottom: 2rem;
 }
 
-#FotoTim{
-      text-shadow: #282c34;
-  
+#FotoTim {
+  text-shadow: #282c34;
 }
 
 @media only screen and (min-width: 1191px) {
-
-    #col1{
-      padding-right: 1rem;
-    }
+  #col1 {
+    padding-right: 1rem;
+  }
 }
 @media only screen and (min-width: 1187px) {
-
-    #col1{
-      padding-right: 1rem;
-    }
+  #col1 {
+    padding-right: 1rem;
+  }
 }
 
 @media only screen and (max-width: 1176px) {
-
-    #col1{
-      padding-right: 1rem;
-    }
+  #col1 {
+    padding-right: 1rem;
+  }
 }
 @media only screen and (min-width: 1094px) {
-
-    #col1{
-      padding-right: 1rem;
-      padding-left: 1rem;
-    }
-    .Card{
-      width: 10rem;
-    }
+  #col1 {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .Card {
+    width: 10rem;
+  }
 }
 @media only screen and (min-width: 1093px) {
-
-    #col1{
-      padding-right: 1rem;
-      padding-left: 1rem;
-    }
-    .Card{
-      width: 8rem;
-    }
+  #col1 {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .Card {
+    width: 8rem;
+  }
 }
 @media only screen and (min-width: 1091px) {
-
-    #col1{
-      padding-right: 1rem;
-      padding-left: 1rem;
-    }
-    .Card{
-      width: 7rem;
-    }
+  #col1 {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .Card {
+    width: 7rem;
+  }
 }
 @media only screen and (min-width: 1090px) {
-
-    #col1{
-      padding-right: 1rem;
-      padding-left: 1rem;
-    }
-    .Card{
-      width: 6rem;
-    }
+  #col1 {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .Card {
+    width: 6rem;
+  }
 }
-@media only screen and (min-width: 1065px) and (max-width : 1090px) {
-
-    #col1{
-      padding-right: 1rem;
-      padding-left: 1rem;
-    }
-    .Card{
-      width: 6rem;
-    }
+@media only screen and (min-width: 1065px) and (max-width: 1090px) {
+  #col1 {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .Card {
+    width: 6rem;
+  }
 }
-@media only screen and (min-width: 1010px) and (max-width : 1065px) {
-
-    #col1{
-      padding-right: 1rem;
-      padding-left: 1rem;
-    }
-    .Card{
-      width: 5rem;
-    }
-    .Menu1{
-      padding-top: 30rem;
-    }
-}
-@media only screen and (max-width: 1221px) {
-
-    .Menu1{
-      padding-top: 10rem;
-    }
-}
-@media only screen and (max-width: 1111px) and (min-width:1010px) {
-
-    .Menu1{
-      padding-top: 20rem;
-    }
-}
-@media only screen and (max-width: 1009px) and (min-width:957px) {
-
-    .Menu1{
-      padding-top: 30rem;
-    }
-}
-
-@media only screen and (min-width:1009px ){
-  .Menu1{
+@media only screen and (min-width: 1010px) and (max-width: 1065px) {
+  #col1 {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .Card {
+    width: 5rem;
+  }
+  .Menu1 {
     padding-top: 30rem;
   }
 }
-@media only screen and (min-width:1008px ){
-  .Card{
+@media only screen and (max-width: 1221px) {
+  .Menu1 {
+    padding-top: 10rem;
+  }
+}
+@media only screen and (max-width: 1111px) and (min-width: 1010px) {
+  .Menu1 {
+    padding-top: 20rem;
+  }
+}
+@media only screen and (max-width: 1009px) and (min-width: 957px) {
+  .Menu1 {
+    padding-top: 30rem;
+  }
+}
+
+@media only screen and (min-width: 1009px) {
+  .Menu1 {
+    padding-top: 30rem;
+  }
+}
+@media only screen and (min-width: 1008px) {
+  .Card {
     width: 200px;
   }
-  #col1{
+  #col1 {
     padding-right: 0.5rem;
     padding-left: 1rem;
   }
 }
-@media only screen and (min-width:1007px ){
-  .Card{
+@media only screen and (min-width: 1007px) {
+  .Card {
     width: 200px;
   }
-  #col1{
+  #col1 {
     padding-right: 0.5rem;
     padding-left: 1rem;
   }
 }
-@media only screen and (min-width:1006px ){
-  .Card{
+@media only screen and (min-width: 1006px) {
+  .Card {
     width: 200px;
   }
-  #col1{
+  #col1 {
     padding-right: 0.5rem;
     padding-left: 1rem;
   }
 }
-@media only screen and (min-width:1005px ){
-  .Card{
+@media only screen and (min-width: 1005px) {
+  .Card {
     width: 200px;
   }
-  #col1{
+  #col1 {
     padding-right: 0.5rem;
     padding-left: 1rem;
   }
 }
-@media only screen and (max-width:1005px ) and (min-width:780px){
-  .Card{
+@media only screen and (max-width: 1005px) and (min-width: 780px) {
+  .Card {
     width: 100px;
   }
-  #col1{
+  #col1 {
     padding-right: 2px;
     padding-left: 2px;
   }
 }
 
-@media only screen and (max-width : 915px) and (min-width:731px){
-    .Card{
-      width: 10rem;
-    }
-    #col1{
-      padding-right: 10rem;
-    }
+@media only screen and (max-width: 915px) and (min-width: 731px) {
+  .Card {
+    width: 10rem;
+  }
+  #col1 {
+    padding-right: 10rem;
+  }
 }
 
-@media only screen and (max-width : 743px ) and (min-width : 693px){
-  .Menu1{
+@media only screen and (max-width: 743px) and (min-width: 693px) {
+  .Menu1 {
     padding-top: 45rem;
   }
-  #menu{
+  #menu {
     padding-left: 8rem;
   }
-  #col1{
+  #col1 {
     padding-top: 30px;
   }
 }
-@media only screen and (max-width : 913px ) and (min-width : 743px){
-  .Menu1{
+@media only screen and (max-width: 913px) and (min-width: 743px) {
+  .Menu1 {
     padding-top: 45rem;
   }
-  #menu{
+  #menu {
     padding-left: 10rem;
   }
-  #col1{
+  #col1 {
     padding-top: 30px;
   }
 }
 
-
-@media only screen and (max-width:992px) and (min-width:975px){
-  .Menu1{
+@media only screen and (max-width: 992px) and (min-width: 975px) {
+  .Menu1 {
     padding-top: 40rem;
   }
 }
-@media only screen and (max-width:975px) and (min-width:957px){
-  .Menu1{
+@media only screen and (max-width: 975px) and (min-width: 957px) {
+  .Menu1 {
     padding-top: 50rem;
   }
 }
-@media only screen and (max-width:957px) and (min-width:744px){
-  .Menu1{
+@media only screen and (max-width: 957px) and (min-width: 744px) {
+  .Menu1 {
     padding-top: 45rem;
   }
 }
 
-@media only screen and (max-width : 1254px) and (min-width:1200px ){
-    .ourteam{
-      padding-top: 50rem;
-    }
+@media only screen and (max-width: 1254px) and (min-width: 1200px) {
+  .ourteam {
+    padding-top: 50rem;
+  }
 }
-@media only screen and (max-width : 1200px) and (min-width:1100px ){
-    .ourteam{
-      padding-top: 70rem;
-    }
+@media only screen and (max-width: 1200px) and (min-width: 1100px) {
+  .ourteam {
+    padding-top: 70rem;
+  }
 }
 
-@media only screen and (max-width : 1199px) and (min-width:1100px){
-  .fototim img{
+@media only screen and (max-width: 1199px) and (min-width: 1100px) {
+  .fototim img {
     width: 200px;
   }
 }
-@media only screen and (max-width : 1100px) and (min-width:992px){
-  .ourteam{
+@media only screen and (max-width: 1100px) and (min-width: 992px) {
+  .ourteam {
     padding-top: 70rem;
   }
-  .fototim img{
+  .fototim img {
     width: 200px;
   }
 }
-@media only screen and (max-width : 991px) and (min-width:793px){
-  .ourteam{
+@media only screen and (max-width: 991px) and (min-width: 793px) {
+  .ourteam {
     padding-top: 70rem;
   }
-  .fototim img{
+  .fototim img {
     width: 300px;
   }
-  .fototim{
-    margin-left:8rem;
+  .fototim {
+    margin-left: 8rem;
   }
 }
-@media only screen and (max-width : 792px) and (min-width:771px){
-  .ourteam{
+@media only screen and (max-width: 792px) and (min-width: 771px) {
+  .ourteam {
     padding-top: 120rem;
   }
-  .fototim img{
+  .fototim img {
     width: 300px;
   }
-  .fototim{
-    margin-left:8rem;
+  .fototim {
+    margin-left: 8rem;
   }
 }
-@media only screen and (max-width : 771px) and (min-width:600px){
-  .ourteam{
+@media only screen and (max-width: 771px) and (min-width: 600px) {
+  .ourteam {
     padding-top: 125rem;
   }
-  .fototim img{
+  .fototim img {
     width: 300px;
   }
-  .fototim{
-    margin-left:8rem;
+  .fototim {
+    margin-left: 8rem;
   }
 }
 
-@media only screen and (min-width : 1254px){
-  .ourteam{
+@media only screen and (min-width: 1254px) {
+  .ourteam {
     padding-top: 40rem;
   }
 }
-@media only screen and (min-width : 991px){
-  .ourteam{
+@media only screen and (min-width: 991px) {
+  .ourteam {
     padding-top: 75rem;
   }
 }
 
-@media only screen and (min-width : 792px) and (max-width:990px){
-  #gal3{
+@media only screen and (min-width: 792px) and (max-width: 990px) {
+  #gal3 {
     padding-top: 10px;
   }
 }
-@media only screen and (min-width : 776px) and (max-width:791px){
-  #gal3{
+@media only screen and (min-width: 776px) and (max-width: 791px) {
+  #gal3 {
     padding-top: 10px;
   }
 }
-@media only screen and (min-width : 600px) and (max-width:775px){
-  #gal3{
+@media only screen and (min-width: 600px) and (max-width: 775px) {
+  #gal3 {
     padding-top: 20px;
   }
-  .Menu1{
+  .Menu1 {
     padding-top: 40rem;
   }
-  #col1{
+  #col1 {
     padding-top: 20px;
   }
 }
-@media only screen and (min-width : 810px) and (max-width:987px){
-  .contact{
-    padding-top: 90rem ;
+@media only screen and (min-width: 810px) and (max-width: 987px) {
+  .contact {
+    padding-top: 90rem;
     padding-left: 2rem;
-    height:350vh;
+    height: 350vh;
   }
 }
-@media only screen and (min-width : 987px) and (max-width:1114px){
-  .contact{
-    padding-top: 90rem ;
+@media only screen and (min-width: 987px) and (max-width: 1114px) {
+  .contact {
+    padding-top: 90rem;
     padding-left: 2rem;
-    height:350vh;
+    height: 350vh;
   }
 }
-@media only screen and (min-width : 696px) and (max-width:792px){
-  .contact{
-    padding-top: 110rem ;
+@media only screen and (min-width: 696px) and (max-width: 792px) {
+  .contact {
+    padding-top: 110rem;
     padding-left: 2rem;
-    height:350vh;
+    height: 350vh;
   }
 }
-@media only screen and (min-width : 992px) and (max-width:1112px){
-  .contact{
-    padding-top: 17rem ;
+@media only screen and (min-width: 992px) and (max-width: 1112px) {
+  .contact {
+    padding-top: 17rem;
     padding-left: 2rem;
-    height:350vh;
+    height: 350vh;
   }
 }
-@media only screen and (min-width : 600px) and (max-width:696px){
-  .contact{
-    padding-top: 115rem ;
+@media only screen and (min-width: 600px) and (max-width: 696px) {
+  .contact {
+    padding-top: 115rem;
     padding-left: 2rem;
-    height:350vh;
+    height: 350vh;
   }
 }
-@media only screen and (min-width : 500px) and (max-width:600px){
-  .ourteam{
+@media only screen and (min-width: 500px) and (max-width: 600px) {
+  .ourteam {
     padding-top: 120rem;
   }
-  .contact{
-    padding-top: 115rem ;
+  .contact {
+    padding-top: 115rem;
     padding-left: 2rem;
-    height:350vh;
+    height: 350vh;
   }
 }
-@media only screen and (min-width : 1113px){
-  .contact{
-    padding-top: 35rem ;
+@media only screen and (min-width: 1113px) {
+  .contact {
+    padding-top: 35rem;
     padding-left: 2rem;
-    height:250vh;
+    height:350vh;
   }
 }
 
+@media only screen and (min-width: 697px) and (max-width: 792px) {
+  .contact {
+    padding-bottom: 60rem;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 697px) {
+  .contact {
+    padding-bottom: 60rem;
+  }
+}
+@media only screen and (min-width: 793px) {
+  .contact {
+    padding-top: 100rem;
+    padding-bottom: 50rem;
+  }
+}
+@media only screen and (min-width: 485px) {
+  .foto_about {
+    width: 250px;
+  }
+
+  #c_menu1 {
+    padding-top: 25rem;
+  }
+}
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 body { background:rgb(30,30,40); }
+form { max-width:420px; margin:50px auto; }
 
 .feedback-input {
-  color:black;
+  color: black;
   font-family: Helvetica, Arial, sans-serif;
-  font-weight:500;
+  font-weight: 500;
   font-size: 18px;
   border-radius: 5px;
   line-height: 22px;
   background-color: transparent;
-  border:2px solid #CC6666;
+  border: 2px solid #cc6666;
   transition: all 0.3s;
   padding: 13px;
   margin-bottom: 15px;
-  width:100%;
+  width: 100%;
   box-sizing: border-box;
-  outline:0;
+  outline: 0;
 }
 
-.feedback-input:focus { border:2px solid #CC4949; }
+.feedback-input:focus {
+  border: 2px solid #cc4949;
+}
 
 textarea {
   height: 150px;
   line-height: 150%;
-  resize:vertical;
+  resize: vertical;
 }
 
 [type="submit"] {
-  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
   width: 100%;
-  background:#CC6666;
-  border-radius:5px;
-  border:0;
-  cursor:pointer;
-  color:white;
-  font-size:24px;
-  padding-top:10px;
-  padding-bottom:10px;
+  background: #cc6666;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   transition: all 0.3s;
-  margin-top:-4px;
-  font-weight:700;
+  margin-top: -4px;
+  font-weight: 700;
+}
+[type="submit"]:hover {
+  background: #cc4949;
 }
 [type="submit"]:hover { background:#CC4949; }
-
-footer-clean h3 {
-  margin-top:0;
-  margin-bottom:12px;
-  font-weight:bold;
-  font-size:16px;
-}
-
-.footer-clean ul {
-  padding:0;
-  list-style:none;
-  line-height:1.6;
-  font-size:14px;
-  margin-bottom:0;
-}
-
-.footer-clean ul a {
-  color:inherit;
-  text-decoration:none;
-  opacity:0.8;
-}
-
-.footer-clean ul a:hover {
-  opacity:1;
-}
-
-.footer-clean .item.social {
-  text-align:right;
-}
-
-@media (max-width:767px) {
-  .footer-clean .item {
-    text-align:center;
-    padding-bottom:20px;
-  }
-}
-
-@media (max-width: 768px) {
-  .footer-clean .item.social {
-    text-align:center;
-  }
-}
-
-.footer-clean .item.social > a {
-  font-size:24px;
-  width:40px;
-  height:40px;
-  line-height:40px;
-  display:inline-block;
-  text-align:center;
-  border-radius:50%;
-  border:1px solid #ccc;
-  margin-left:10px;
-  margin-top:22px;
-  color:inherit;
-  opacity:0.75;
-}
-
-.footer-clean .item.social > a:hover {
-  opacity:0.9;
-}
-
-@media (max-width:991px) {
-  .footer-clean .item.social > a {
-    margin-top:40px;
-  }
-}
-
-@media (max-width:767px) {
-  .footer-clean .item.social > a {
-    margin-top:10px;
-  }
-}
-
-.footer-clean .copyright {
-  margin-top:14px;
-  margin-bottom:0;
-  font-size:13px;
-  opacity:0.6;
-}
