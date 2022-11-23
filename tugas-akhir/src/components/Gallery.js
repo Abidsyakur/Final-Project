@@ -11,7 +11,7 @@ const Gallery = () => {
       <div class="container">
         <h1 id="header_menu_gall">Gallery</h1>
         <div class="row  mb-4" id="row_gallery">
-          <div class="col">
+          <div class="col" >
             <img src={Geleri1} alt="" width="300" />
           </div>
           <div class="col" id="gal3">

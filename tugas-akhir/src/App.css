@@ -330,6 +330,31 @@
     padding-top: 10rem;
   }
 }
+@media only screen and (max-width: 623px) {
+  .Menu1 {
+    padding-top: 50rem;
+    padding-bottom: 8rem;
+  }
+  .ourteam{
+    padding-top: 130rem;
+    padding-bottom: 100rem;
+  }
+  .contact{
+    padding-bottom: 10rem;
+  }
+  #col1{
+    padding-top: 20px;
+  }
+  .row{
+    
+    padding-left: 10px;
+    padding-right: 10px;
+      
+  }
+  .col{
+    padding-top: 20px;
+  }
+}
 @media only screen and (max-width: 1111px) and (min-width: 1010px) {
   .Menu1 {
     padding-top: 20rem;

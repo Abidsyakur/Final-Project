@@ -1,15 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import {BrowserRouter} from 'react-router-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
+const baseUrl = document.getElementById('base')[0].getAttribute('href');
+const rootElement = document.getElementById('root');
+ReactDOM.render(<BrowserRouter basename={baseUrl}>
     <App />
-  </React.StrictMode>
-);
+  </BrowserRouter>,
+  rootElement);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
