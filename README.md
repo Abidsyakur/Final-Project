@@ -1,5 +1,5 @@
 
-# CAFE ....
+# SHARFARAZ CAFE
 
 is a simple cafe website in order to fulfill the final project
 
